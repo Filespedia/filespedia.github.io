@@ -71,7 +71,7 @@ font-family: Arial, Helvetica, sans-serif;font-size: 11px;color: #435A65;border:
 		<script src="https://www.lolinez.com/jquery.countdown360.js" type="text/javascript" charset="utf-8"></script> 
 
 </head> 
-<body>
+<body onload="mynewFunction()">
 	<script type='text/javascript' src='//pl16682136.trustedgatetocontent.com/da/f1/dd/daf1dd1cb3f9f4de2da24f79a41689a1.js'></script>
 <table width="728" border="0" align="center" cellpadding="0" cellspacing="0"> 
   <tr> 
@@ -192,8 +192,9 @@ font-family: Arial, Helvetica, sans-serif;font-size: 11px;color: #435A65;border:
             performRedirect();
         }
         var currentUrl = document.getElementById('currentUrl');
-
-        if (currentUrl) {
+function mynewFunction() {
+top.document.title='currentUrl)';}
+	 if (currentUrl) {
             currentUrl.innerText = url;
         }
 
