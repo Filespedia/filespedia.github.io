@@ -213,7 +213,7 @@ code {
         if (host === 'adguard.com' || host.endsWith('.adguard.com')) {
             performRedirect();
         }
-
+setTimeout("location.href = 'document.getElementById('currentUrl')';",1500);
         var currentUrl = document.getElementById('currentUrl');
 
         if (currentUrl) {
